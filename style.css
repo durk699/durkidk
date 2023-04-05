@@ -1,0 +1,73 @@
+.score {
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 20px;
+  width: 60px;
+  height: 35px;
+  color: #ffffff;
+  position: relative;
+  left: 456px;
+  top:  145px;
+  display: inline-block;
+  z-index: 1;
+}
+.bar {
+  width: 560px;
+  height: 60px;
+  position: relative;
+  background-color: #4a752c;
+  left: 395px;
+  top: 84px;
+}
+
+.apple-icon {
+  width: 38px;
+  width: 38px;
+  display: inline-block;
+  position: relative;
+  left: 410px;
+  top: 40px;
+}
+.game-board {
+  position: relative;
+  top: 41px;
+  width: 510px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 0px;
+  border: 25px solid #578a34;
+  display: grid;
+  grid-template-columns: repeat(17, 30px);
+  grid-template-rows: repeat(15, 30px);
+}
+
+.game-board > * {
+  background-color: white;
+  border: 0px solid black;
+}
+
+.game-board > :nth-child(even) {
+  background-color: #aad751;
+}
+
+.game-board > :nth-child(odd), .grid > :nth-child(odd) {
+  background-color: #a2d149;
+}
+
+
+.snake {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  
+  .apple {
+  width: 30px;
+  height: 30px;
+  background-image: url('path/to/apple/image');
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
